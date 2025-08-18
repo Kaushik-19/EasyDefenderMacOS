@@ -2,7 +2,8 @@
 
 **EasyDefenderMacOS** is a set of Intune policies that simplify onboarding macOS devices into Microsoft Defender for Business/Endpoint.
 
----
+**Device types supported**
+   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
 ## 🚀 Setup Guide
 
@@ -35,10 +36,8 @@
 <img width="1529" height="695" alt="image" src="https://github.com/user-attachments/assets/e48aa0c6-5b64-4157-a8df-a6ac80db084f" />
 
 
-5. **Device types supported**
-   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**.
 
-6. **Import policies**
+5. **Import policies**
    - Import all policies and MacOS app using **Micke's Intune Management Tool**. [https://github.com/Micke-K/IntuneManagement](https://github.com/Micke-K/IntuneManagement)
   
 <img width="391" height="411" alt="image" src="https://github.com/user-attachments/assets/e03b2025-83fd-45c0-9122-25f29fbb3e69" />
@@ -47,7 +46,7 @@
 
 
      
-7. - **Onboarding package**
+6. - **Onboarding package**
    - Download your macOS onboarding package from the Defender portal. Follow the instructions in the policy description.
    - Replace the `.xml` file inside the policy **[macOS] - MDE Onboarding package** with the downloaded one.
 
@@ -59,14 +58,14 @@
 
 
 
-8. **[ONLY FOR OFFBOARDING] SKIP THIS AND GO TO STEP 9 IF YOU DON'T NEED TO OFFBOARD DEVICES** 
+7. **[ONLY FOR OFFBOARDING] SKIP THIS AND GO TO STEP 8 IF YOU DON'T NEED TO OFFBOARD DEVICES** 
    - Follow the instructions in the policy **[macOS] - MDE Offboarding package**.  
    - ⚠️ **Do not assign this policy** unless you actually need to offboard devices from Defender for Endpoint.
 
 <img width="1799" height="890" alt="image" src="https://github.com/user-attachments/assets/b36cb547-47b6-4863-b984-c26186fc0ae5" />
 
 
-9. **Assign policies in Devices -> MacOS -> Configuration** 
+8. **Assign policies in Devices -> MacOS -> Configuration** 
    - Assign all policies **except** the "[MacOS]- MDE Offboarding package" to your security **Device Group** or **All Devices**.
 
 <img width="1981" height="668" alt="image" src="https://github.com/user-attachments/assets/012f6112-a815-446e-934f-f12e8033dc59" />
@@ -74,13 +73,13 @@
 <img width="772" height="854" alt="image" src="https://github.com/user-attachments/assets/d96aadf0-816b-4d65-9e80-fc1c5d3e588e" />
      
 
-10. **Set Defender MacOS app as required in Apps-> MacOs**
+9. **Set Defender MacOS app as required in Apps-> MacOs**
     - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Device Group** / **All Devices**.
 
 <img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
   
 
-11. **Test enrollment**
+10. **Test enrollment**
     - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
     - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
 
