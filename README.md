@@ -79,7 +79,7 @@
 <img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
   
 
-10. **Test enrollment**
+10. **Test onboarding by enrolling your test device(s) to Intune**
     - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
     - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
 
