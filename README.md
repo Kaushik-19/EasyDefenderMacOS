@@ -59,7 +59,7 @@
 
 
 
-8. **Offboarding package** if needed
+8. [ONLY FOR OFFBOARDING] SKIP THIS AND GO TO STEP 9 IF YOU DON'T NEED TO OFFBOARD DEVICES **Offboarding package** 
    - Follow the instructions in the policy **[macOS] - MDE Offboarding package**.  
    - ⚠️ **Do not assign this policy** unless you actually need to offboard devices from Defender for Endpoint.
 
@@ -67,7 +67,7 @@
 
 
 9. **Assign policies in Devices -> MacOS -> Configuration** 
-   - Assign all policies **except** the "[MacOS]- MDE Offboarding package" to your security **Group** or **All Devices**.
+   - Assign all policies **except** the "[MacOS]- MDE Offboarding package" to your security **Device Group** or **All Devices**.
 
 <img width="1981" height="668" alt="image" src="https://github.com/user-attachments/assets/012f6112-a815-446e-934f-f12e8033dc59" />
 
@@ -75,7 +75,7 @@
      
 
 10. **Set Defender MacOS app as required in Apps-> MacOs**
-    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Group** / **All Devices**.
+    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Device Group** / **All Devices**.
 
 <img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
   
