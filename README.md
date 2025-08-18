@@ -27,7 +27,7 @@
    - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**.
 
 6. **Import policies**
-   - Import all policies and MacOS app using **Micke's Intune Management Tool**. [https://github.com/Micke-K/IntuneManagement)(https://github.com/Micke-K/IntuneManagement)
+   - Import all policies and MacOS app using **Micke's Intune Management Tool**. [https://github.com/Micke-K/IntuneManagement](https://github.com/Micke-K/IntuneManagement) 
      
 7. - **Onboarding package**
    - Download your macOS onboarding package from the Defender portal. Follow the instructions in the policy description.
