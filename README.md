@@ -1,6 +1,6 @@
 # EasyDefenderMacOS
 
-**EasyDefenderMacOS** is a set of Intune policies that simplify onboarding macOS devices into Microsoft Defender for Business/Endpoint.
+**EasyDefenderMacOS** is a set of importable Intune policies that simplify onboarding MacOS devices to Defender for Business/Endpoint..
 
 **Device types supported**
    - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
