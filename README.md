@@ -67,16 +67,15 @@
 
 
 9. **Assign policies**
-   - Assign every policy **except** the Offboarding package to your security groups or **All Devices**.
-
+   - Assign all policies **except** the "[MacOS]- MDE Offboarding package" to your security **Group** or **All Devices**.
 
 
 10. **Defender MacOS app**
-    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same groups / devices.
+    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Group** / **All Devices**.
 
 11. **Test enrollment**
     - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
-    - The Mac should be automatically enrolled into Defender for Endpoint after device enrollment without any manual steps.
+    - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
 
 ---
 
