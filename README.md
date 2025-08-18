@@ -51,4 +51,4 @@
 ---
 
 ## ✅ Summary
-With **EasyDefenderMacOS**, onboarding and offboarding macOS devices into Microsoft Defender for Endpoint becomes much easier without many manual tasks!
+With **EasyDefenderMacOS**, onboarding and offboarding macOS devices into /from Microsoft Defender for Endpoint becomes much easier without many manual tasks!
