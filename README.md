@@ -59,7 +59,7 @@
 
 
 
-8. [ONLY FOR OFFBOARDING] SKIP THIS AND GO TO STEP 9 IF YOU DON'T NEED TO OFFBOARD DEVICES **Offboarding package** 
+8. **[ONLY FOR OFFBOARDING] SKIP THIS AND GO TO STEP 9 IF YOU DON'T NEED TO OFFBOARD DEVICES** 
    - Follow the instructions in the policy **[macOS] - MDE Offboarding package**.  
    - ⚠️ **Do not assign this policy** unless you actually need to offboard devices from Defender for Endpoint.
 
