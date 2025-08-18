@@ -1,4 +1,4 @@
-# EasyDefenderMacOS
+# EasyDefenderMacOS 
 
 **EasyDefenderMacOS** is a set of importable Intune policies that simplify onboarding/offboarding MacOS devices to/from Defender for Business/Endpoint.
 
