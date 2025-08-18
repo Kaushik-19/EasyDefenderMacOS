@@ -53,8 +53,13 @@
 
 <img width="1532" height="950" alt="image" src="https://github.com/user-attachments/assets/3826eb7f-522a-4eb3-a212-afc183060ecb" />
 
+<img width="814" height="996" alt="image" src="https://github.com/user-attachments/assets/0b602610-87e8-4939-9ac9-f1d6775ff665" />
 
-8. **Offboarding package**
+<img width="811" height="724" alt="image" src="https://github.com/user-attachments/assets/1365e0b0-f215-450c-a6e8-213f431a55b8" />
+
+
+
+8. **Offboarding package** if needed
    - Follow the instructions in the policy **[macOS] - MDE Offboarding package**.  
    - ⚠️ **Do not assign this policy** unless you actually need to offboard devices from Defender for Endpoint.
 
