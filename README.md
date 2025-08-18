@@ -66,12 +66,19 @@
 <img width="1799" height="890" alt="image" src="https://github.com/user-attachments/assets/b36cb547-47b6-4863-b984-c26186fc0ae5" />
 
 
-9. **Assign policies**
+9. **Assign policies in Devices -> MacOS -> Configuration** 
    - Assign all policies **except** the "[MacOS]- MDE Offboarding package" to your security **Group** or **All Devices**.
 
+<img width="1981" height="668" alt="image" src="https://github.com/user-attachments/assets/012f6112-a815-446e-934f-f12e8033dc59" />
 
-10. **Defender MacOS app**
+<img width="772" height="854" alt="image" src="https://github.com/user-attachments/assets/d96aadf0-816b-4d65-9e80-fc1c5d3e588e" />
+     
+
+10. **Set Defender MacOS app as required in Apps-> MacOs**
     - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Group** / **All Devices**.
+
+<img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
+  
 
 11. **Test enrollment**
     - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
